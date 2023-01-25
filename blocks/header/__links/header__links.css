@@ -1,0 +1,5 @@
+.header__links {
+  display: flex;
+  justify-content: right;
+  column-gap: 18px;
+}

@@ -1,0 +1,25 @@
+.lead__polka-illustration {
+  margin: 0;
+  max-width: 984px;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__polka-illustration {
+    max-width: 928px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__polka-illustration {
+    max-width: 100%;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__polka-illustration {
+    margin-top: 40px;
+  }
+}

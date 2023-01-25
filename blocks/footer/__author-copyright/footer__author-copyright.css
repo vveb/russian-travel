@@ -1,0 +1,15 @@
+.footer__author-copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: end;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__author-copyright {
+    line-height: 14px;
+  }
+}

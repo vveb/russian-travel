@@ -1,0 +1,35 @@
+.places {
+  margin: 0;
+  width: 100%;
+  max-width: 984px;
+  padding-top: 92px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    row-gap: 73px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    row-gap: 50px;
+    padding-top: 64px;
+  }
+}

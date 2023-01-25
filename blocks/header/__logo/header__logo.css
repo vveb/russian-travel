@@ -1,0 +1,14 @@
+.header__logo {
+  width: 100%;
+  max-width: 176px;
+  max-height: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }  
+}
