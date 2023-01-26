@@ -1,0 +1,16 @@
+.footer__links {
+  padding-left: 0;
+  list-style-type: none;
+  display: inherit;
+  justify-content: inherit;
+  column-gap: inherit;
+
+}
+
+@media screen and (max-width: 540px) {
+  .footer__links {
+    flex-direction: inherit;
+    align-items: inherit;
+    row-gap: inherit;
+  }
+}
