@@ -8,8 +8,10 @@
   color: #fff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
   .footer__author-copyright {
     line-height: 14px;
+    text-align: start;
+    max-width: 186px;
   }
 }

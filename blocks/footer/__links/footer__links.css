@@ -1,4 +1,5 @@
 .footer__links {
+  margin: 0;
   padding-left: 0;
   list-style-type: none;
   display: inherit;
@@ -11,6 +12,6 @@
   .footer__links {
     flex-direction: inherit;
     align-items: inherit;
-    row-gap: inherit;
+    row-gap: 32px;
   }
 }
